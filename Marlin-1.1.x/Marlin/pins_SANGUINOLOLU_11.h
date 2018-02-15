@@ -21,16 +21,16 @@
 #define E0_STEP_PIN         1
 #define E0_DIR_PIN          0
 
-#define LED_PIN            -1
+#define LED_PIN            4
 
-#define FAN_PIN            -1
+#define FAN_PIN            27
 
 // #if FAN_PIN == 12 || FAN_PIN ==13
 //   #define FAN_SOFT_PWM
 // #endif
 
 #if MB(MELZI)
-  #define LED_PIN            27 /* On some broken versions of the Sanguino libraries the pin definitions are wrong, which then needs LED_PIN as pin 28. But you better upgrade your Sanguino libraries! See #368. */
+  #define LED_PIN            27 /* On some broken versions of the Sanguino libraries the pin definitions 28. Butare wrong, which then needs LED_PIN as pin  you better upgrade your Sanguino libraries! See #368. */
   #define FAN_PIN            4 // Works for Panelolu2 too
 #endif
 

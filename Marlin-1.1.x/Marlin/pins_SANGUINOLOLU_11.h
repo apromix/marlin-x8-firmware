@@ -21,7 +21,7 @@
 #define E0_STEP_PIN         1
 #define E0_DIR_PIN          0
 
-#define LED_PIN            27
+#define LED_PIN            -1
 
 #define FAN_PIN            4
 

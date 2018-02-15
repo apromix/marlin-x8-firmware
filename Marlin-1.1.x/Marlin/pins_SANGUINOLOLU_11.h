@@ -21,9 +21,9 @@
 #define E0_STEP_PIN         1
 #define E0_DIR_PIN          0
 
-#define LED_PIN            4
+#define LED_PIN            27
 
-#define FAN_PIN            27
+#define FAN_PIN            4
 
 // #if FAN_PIN == 12 || FAN_PIN ==13
 //   #define FAN_SOFT_PWM

@@ -771,12 +771,12 @@
 // @section machine
 
 // The size of the print bed
-//#define X_BED_SIZE 220
-//#define Y_BED_SIZE 220
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
 
 // Actual size
-#define X_BED_SIZE 190
-#define Y_BED_SIZE 200
+//#define X_BED_SIZE 190
+//#define Y_BED_SIZE 200
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 // With Anycubic Ultrabase Glass
@@ -784,8 +784,8 @@
 //#define Y_MIN_POS -20
 
 //With aluminium default bed
-#define X_MIN_POS -65
-#define Y_MIN_POS -10
+#define X_MIN_POS -49
+#define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE

@@ -7,4 +7,4 @@ Customize Configuration.h and Configuration_adv.h for your setup.
 
 Note:
 Configured to make it work with CXY-V.2 board(thanks to siliconzoo).
-LCD display currently work.
+I just made the LCD display work.
